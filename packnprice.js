@@ -1,3 +1,27 @@
+if (document.images) {
+
+	img0 = new Image();
+	img1 = new Image();
+	img2 = new Image();
+	img3 = new Image();
+	img4 = new Image();
+	img5 = new Image();
+	img6 = new Image();
+	img7 = new Image();
+	img8 = new Image();
+	img9 = new Image();
+
+	img0.src = "Images/0.JPG";
+	img1.src = "Images/1.JPG";
+	img2.src = "Images/2.JPG";
+	img3.src = "Images/3.JPG";
+	img4.src = "Images/4.JPG";
+	img5.src = "Images/5.JPG";
+	img6.src = "Images/6.JPG";
+	img7.src = "Images/7.JPG";
+	img8.src = "Images/8.JPG";
+	img9.src = "Images/9.JPG";
+}
 $("#evoLogo").mouseenter(function (){
 	// $("#dropdown").css("-webkit-animation-name", "dropDown");
 	$("#dropdown").css("height", "auto");
