@@ -55,6 +55,6 @@ setInterval(function(){
 	{
 		currentImage = 0;
 	}
-	var url = "url(Images/" + currentImage + ".jpg)";
+	var url = "url(Images/" + currentImage + ".JPG)";
 	$(".body").css("background-image", url);
 }, 8000);	
