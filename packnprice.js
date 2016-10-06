@@ -4,7 +4,7 @@ $("#evoLogo").mouseenter(function (){
 	$("#evoLogo").css("background-image", "url(evoLogo.png)");
 });
 
-$("#dropdown1").css("background-color", "#191919");
+$("#dropdown2").css("background-color", "#191919");
 
 //Dropdown menu functionality
 $("#dropdown").mouseleave(function (){
@@ -16,14 +16,14 @@ $("#dropdown1").mouseenter(function (){
 	$("#dropdown1").css("background-color", "#191919");
 });
 $("#dropdown1").mouseleave(function (){
-	$("#dropdown1").css("background-color", "#191919");
+	$("#dropdown1").css("background-color", "");
 });
 
 $("#dropdown2").mouseenter(function (){
 	$("#dropdown2").css("background-color", "#191919");
 });
 $("#dropdown2").mouseleave(function (){
-	$("#dropdown2").css("background-color", "");
+	$("#dropdown2").css("background-color", "#191919");
 });
 
 $("#dropdown3").mouseenter(function (){
